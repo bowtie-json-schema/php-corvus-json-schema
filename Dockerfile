@@ -1,6 +1,6 @@
 # The extension's builds, as released (src-php in Corvus.JsonSchema). Its version is this tag, which Dependabot keeps
 # up to date.
-FROM ghcr.io/corvus-dotnet/corvus-json-schema-php:0.2.0 AS corvus
+FROM ghcr.io/corvus-dotnet/corvus-json-schema-php:0.2.1 AS corvus
 
 FROM php:8.5-cli-alpine
 WORKDIR /usr/src/harness
