@@ -2,7 +2,7 @@
 # up to date.
 FROM ghcr.io/corvus-dotnet/corvus-json-schema-php:0.2.2 AS corvus
 
-FROM php:8.5-cli-alpine
+FROM php:8.6-cli-alpine
 WORKDIR /usr/src/harness
 # The build of the extension for this PHP: its minor version, thread safety, architecture and musl. It is the archive
 # PIE would install.
